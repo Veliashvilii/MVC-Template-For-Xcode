@@ -1,4 +1,4 @@
-t//
+//
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
@@ -10,9 +10,9 @@ import Foundation
 
 // MARK: - Model Implementation
 class ___VARIABLE_productName___Model {
-    
+    weak var controllerOutput: ___VARIABLE_productName___ControllerToModelInputProtocol?
 }
 
-// MARK: - Extension
-
-
+extension ___VARIABLE_productName___Model: ___VARIABLE_productName___ModelToControllerOutputProtocol {
+    // Implement Methods Here
+}
