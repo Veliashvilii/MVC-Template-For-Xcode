@@ -37,3 +37,10 @@ protocol ___VARIABLE_productName___ModelProtocol: AnyObject {
 protocol ___VARIABLE_productName___ControllerProtocol: AnyObject {
     var view: ___VARIABLE_productName___ViewInputProtocol? { get set }
 }
+
+// MARK: - Controller Output Protocol
+protocol ___VARIABLE_ModuleName___ControllerOutput: class {
+    var viewInput: ___VARIABLE_ModuleName___ViewInput? { get set }
+    
+    // Controller output methods here
+}
