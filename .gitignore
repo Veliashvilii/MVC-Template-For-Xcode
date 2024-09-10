@@ -1,0 +1,24 @@
+# macOS dosyaları
+.DS_Store
+
+# Xcode proje dosyaları
+*.xcuserdatad
+*.xcuserdata
+*.xcworkspace
+*.lock
+*.pbxuser
+!default.pbxuser
+
+# Derived Data ve diğer cache dosyaları
+DerivedData/
+.idea/
+build/
+
+# Swift paket yöneticisi dosyaları
+Packages/
+.swiftpm/
+
+# Diğer temp dosyalar
+*.tmp
+*.swp
+
