@@ -23,19 +23,20 @@ class ___VARIABLE_ModuleName___View: UIView {
     override func layoutSubviews() {
         
     }
-    
-    // MARK: - Controller Output
-    extension ___VARIABLE_ModuleName___View: ___VARIABLE_ModuleName___ControllerOutput {
         
-        // Implement methods
-        
-    }
-    
-    // MARK: - UI Setup
-    extension ___VARIABLE_ModuleName___View {
+// MARK: - UI Setup
+extension ___VARIABLE_ModuleName___View {
         private func setupUI() {
             // Add subviews and set constraints here
             self.backgroundColor = .blue
         }
     }
 }
+
+// MARK: - View Output Protocol
+extension ___VARIABLE_ModuleName___View: ___VARIABLE_productName___ViewOutputProtocol {
+    // Handle button actions also UIElements
+}
+
+// MARK: - Controller Input Protocol
+extension ___VARIABLE_ModuleName___View:

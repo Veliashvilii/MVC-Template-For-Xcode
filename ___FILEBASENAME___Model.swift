@@ -1,4 +1,4 @@
-//
+t//
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
@@ -15,6 +15,4 @@ class ___VARIABLE_productName___Model {
 
 // MARK: - Extension
 
-extension ___VARIABLE_productName___Model: ___VARIABLE_productName___ModelProtocol {
-    
-}
+
