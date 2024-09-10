@@ -20,23 +20,44 @@ class ___VARIABLE_ModuleName___View: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func layoutSubviews() {
+    private let button: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("Fetch Data", for: .normal) // Button title.
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
+    
+    private let label: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
+    
+    private func setupUI() {
+        addSubview(button)
+        addSubview(label)
         
+        NSLayoutConstraint.activate([
+            button.centerXAnchor.constraint(equalTo: centerXAnchor),
+            button.centerYAnchor.constraint(equalTo: centerYAnchor),
+            
+            label.topAnchor.constraint(equalTo: button.bottomAnchor, constant: 20),
+            label.centerXAnchor.constraint(equalTo: centerXAnchor)
+        ])
     }
-        
-// MARK: - UI Setup
-extension ___VARIABLE_ModuleName___View {
-        private func setupUI() {
-            // Add subviews and set constraints here
-            self.backgroundColor = .blue
-        }
+    
+    // MARK: - Properties
+    weak var viewToControllerInput: ___VARIABLE_ModuleName___ViewToControllerInputProtocol? // Reference for communication with the Controller.
+    
+    @objc private func buttonTapped() {
+        viewToControllerInput?.buttonTapped() // Notify the Controller.
     }
 }
 
-// MARK: - View Output Protocol
-extension ___VARIABLE_ModuleName___View: ___VARIABLE_productName___ViewOutputProtocol {
-    // Handle button actions also UIElements
+// MARK: - Controller To View Output
+// Updates the View with data received from the Controller.
+extension ___VARIABLE_ModuleName___View: ___VARIABLE_ModuleName___ControllerToViewOutputProtocol {
+    func updateView(with data: String) {
+        label.text = data
+    }
 }
-
-// MARK: - Controller Input Protocol
-extension ___VARIABLE_ModuleName___View:

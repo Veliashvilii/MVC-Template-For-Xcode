@@ -9,25 +9,25 @@
 import Foundation
 
 // MARK: - View To Controller Input Protocol
-protocol ___VARIABLE_productName___ViewToControllerInputProtocol: AnyObject {
-    /// Used to pass interactions from the view to the controller.
-    /// For example: Notify the controller when the user taps a button or changes text in a textfield.
+// Protocol used for data transfer from View to Controller.
+protocol ___VARIABLE_ModuleName___ViewToControllerInputProtocol: AnyObject {
+    func buttonTapped()
 }
 
 // MARK: - Controller To View Output Protocol
-protocol ___VARIABLE_productName___ControllerToViewOutputProtocol: AnyObject {
-    /// Used to send data or UI updates from the controller to the view.
-    /// For example: Update the view with data retrieved from the model.
+// Protocol used for data transfer from Controller to View.
+protocol ___VARIABLE_ModuleName___ControllerToViewOutputProtocol: AnyObject {
+    func updateView(with data: String)
 }
 
 // MARK: - Controller To Model Input Protocol
-protocol ___VARIABLE_productName___ControllerToModelInputProtocol: AnyObject {
-    /// Used by the controller to send data processing requests or fetch data from the model.
-    /// For example: Save data entered by the user or request data from the model.
+// Protocol used for requesting data from the Model by the Controller.
+protocol ___VARIABLE_ModuleName___ControllerToModelInputProtocol: AnyObject {
+    func fetchData()
 }
 
 // MARK: - Model To Controller Output Protocol
-protocol ___VARIABLE_productName___ModelToControllerOutputProtocol: AnyObject {
-    /// Used by the model to send results back to the controller after processing.
-    /// For example: Notify the controller when data fetching is completed or when an error occurs.
+// Protocol used for data transfer from Model to Controller.
+protocol ___VARIABLE_ModuleName___ModelToControllerOutputProtocol: AnyObject {
+    func didFetchData(_ data: String)
 }

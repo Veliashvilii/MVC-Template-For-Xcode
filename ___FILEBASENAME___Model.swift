@@ -8,11 +8,19 @@
 
 import Foundation
 
-// MARK: - Model Implementation
-class ___VARIABLE_productName___Model {
-    weak var controllerOutput: ___VARIABLE_productName___ControllerToModelInputProtocol?
+class ___VARIABLE_ModuleName___Model {
+    weak var modelToControllerOutput: ___VARIABLE_ModuleName___ModelToControllerOutputProtocol?
+    
+    func fetchedData() {
+        let data = "Fetched User Data"
+        modelToControllerOutput?.didFetchData(data)
+    }
 }
 
-extension ___VARIABLE_productName___Model: ___VARIABLE_productName___ModelToControllerOutputProtocol {
-    // Implement Methods Here
+// MARK: - Controller To Model Input
+// This extension receives data request calls from the Controller.
+extension ___VARIABLE_ModuleName___Model: ___VARIABLE_ModuleName___ControllerToModelInputProtocol {
+    func fetchData() {
+        self.fetchedData()
+    }
 }
