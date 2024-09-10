@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A custom MVC template with basic setup</string>
+	<key>Summary</key>
+	<string>Custom MVC architecture template for starting new projects</string>
+	<key>Identifier</key>
+	<string>com.metehanbelli.custommvc</string>
+	<key>DefaultCompletionName</key>
+	<string>MyMVCProject</string>
+	<key>Options</key>
+	<array/>
+</dict>
+</plist>
