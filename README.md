@@ -24,6 +24,12 @@ This project includes the following files:
    - Create a new folder and name it whatever you want, then enter the folder you created.
    - Copy and paste all the project files.
 
+3. **Usage of the template**:
+   - Open a project on Xcode.
+   - `File -> New -> File` or press `⌘`+`N`
+   - Scroll down till you see `MVC` template and choose it.
+   - Set a name for your module. Examples `Authentication`, `Register`, `HomePage`
+
 ## Files
 
 ### `___FILEBASENAME___Contract.swift`
@@ -48,9 +54,9 @@ Contains the ViewController class. It facilitates data communication between Vie
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License]([LICENSE](https://opensource.org/license/mit)).
 
 ## Contributing
 
-If you would like to contribute to this project, please open a pull request or create an [issue](issues).
+If you would like to contribute to this project, please open a pull request or send message on [linkedin](www.linkedin.com/in/metehan-belli).
 
