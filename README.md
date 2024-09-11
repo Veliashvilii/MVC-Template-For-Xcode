@@ -61,4 +61,8 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 If you would like to contribute to this project, please open a pull request or send a message on [LinkedIn](https://www.linkedin.com/in/metehan-belli).
 
+## More Information
+
+For a detailed explanation of how this template can accelerate your development process, please refer to my Medium article: [MVC Template for Xcode: How It Can Accelerate Your Development Process](https://medium.com/@metehanbelli8/mvc-template-for-xcode-how-it-can-accelerate-your-development-process-0cc1312acfdc).
+
 
