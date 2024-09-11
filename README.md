@@ -19,10 +19,10 @@ This project includes the following files:
    - **Controller**: Facilitates data communication between Model and View and responds to user interactions.
 
 2. **Template Setup**:
-   - Create a new project in Xcode.
-   - Add these files to the project directory.
-   - Ensure that the placeholders `___VARIABLE_ModuleName___` are replaced with your module name.
-   - Make adjustments as needed.
+   - Clone the repository
+   - Navigate to Xcode Templates folder: `~/Library/Developer/Xcode/Templates/`. If Templates folder doesn't exist, create it
+   - Create a new folder and name it whatever you want, then enter the folder you created.
+   - Copy and paste all the project files.
 
 ## Files
 
