@@ -54,9 +54,11 @@ Contains the ViewController class. It facilitates data communication between Vie
 
 ## License
 
-This project is licensed under the [MIT License]([LICENSE](https://opensource.org/license/mit)).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
 
 ## Contributing
 
-If you would like to contribute to this project, please open a pull request or send message on [linkedin](www.linkedin.com/in/metehan-belli).
+If you would like to contribute to this project, please open a pull request or send a message on [LinkedIn](https://www.linkedin.com/in/metehan-belli).
+
 
