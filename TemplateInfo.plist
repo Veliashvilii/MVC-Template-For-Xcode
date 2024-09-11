@@ -43,5 +43,11 @@
 	</array>
 	<key>Summary</key>
 	<string>Create MVC Module Template</string>
+	<key>TemplateIconName</key>
+	<string>TemplateIcon.png</string>
+	<key>TemplateIconName@2x</key>
+	<string>TemplateIcon@2x.png</string>
+	<key>Author</key>
+	<string>Metehan Veliashvili</string>
 </dict>
 </plist>
